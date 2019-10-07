@@ -1,0 +1,284 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Academy - Rich Music, Sech, Dalex feat. Justin Quiles, Lenny Tavárez, Feid</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+        <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="img/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body id="site">     
+            <div class="nav-container navigator">
+					<nav class="absolute transparent">
+						<div class="nav-bar text-center">
+							<div class="col-md-2 col-md-push-5 col-sm-12 text-center"  id="navContainer">
+									<a href="#home">
+										<img alt="logo" id="richmusic" class="image-65" src="img/THE ACADEMY FINAL FULL WITH NO SHADOW.png">
+									</a>
+                            </div>
+                            
+                        </div>
+                        
+					</nav>
+            </div>
+            <img class="moon z1" id="moon" src="https://connorlaw.co.uk/codepen-images/moon.png">
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+	<div class="main-container" id="myDiv">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds full"></div>
+		<a name="home"></a>
+            
+        <section id="streaming-icons" class="no-bt-pd">
+            <div class="container z1 text-center pt100">
+                <div class="row">
+                    <div class="fader">
+                            <img class="bottom" src="img/topsecret.png" onclick="openNav()">
+                            <img class="cover-art top" src="img/The Academy Cover.jpg" onclick="openNav()">
+                        </div>
+                            <!-- <div class="img-over">
+                                <div class="secret-text">Click for the Avengers Secret Room</div>
+                            </div> -->
+                        
+                    <!-- <iframe width="300" height="250" frameborder="0" src="https://richmusic.ffm.to/theacademy/widget?width=300&height=250&note="></iframe> -->
+                </div>
+                <div class="row">
+                    <!-- <div class="col-sm-4"></div> -->
+                    <div class="col-sm-12">
+                            <h5 class="text-center mt30 bold uppercase ftwhite">Haz Clic a tu servicio de musica  preferido y Reserva The Academy ya! </h5>
+                            <ul class="list-inline text-center">
+                                    <li><a href="https://api.ffm.to/sl/e/ps/theacademy?cd=eyJ1YSI6eyJ1YSI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS83Ny4wLjM4NjUuOTAgU2FmYXJpLzUzNy4zNiIsImJyb3dzZXIiOnsibmFtZSI6IkNocm9tZSIsInZlcnNpb24iOiI3Ny4wLjM4NjUuOTAiLCJtYWpvciI6Ijc3In0sImVuZ2luZSI6eyJuYW1lIjoiV2ViS2l0IiwidmVyc2lvbiI6IjUzNy4zNiJ9LCJvcyI6eyJuYW1lIjoiV2luZG93cyIsInZlcnNpb24iOiIxMCJ9LCJkZXZpY2UiOnt9LCJjcHUiOnsiYXJjaGl0ZWN0dXJlIjoiYW1kNjQifX0sImNsaWVudCI6eyJyaWQiOiIwMzM4M2U5Ni00NWJmLTRjYzYtYWFjOC01NmUwYWQ5ZDYzNDMiLCJzaWQiOiI2MGJlN2ZiOC0xMzU4LTQyNDUtOTFkMy1hZjdkMWU0MmQ2Y2YiLCJpcCI6IjE0Mi4xOTAuNTguMTYiLCJyZWYiOiIiLCJob3N0IjoicmljaG11c2ljLmZmbS50byIsImxhbmciOiJlbi1VUyJ9LCJpc0Zyb21FVSI6ZmFsc2UsImNvdW50cnlDb2RlIjoiVVMiLCJpZCI6IjVkOTYzZjQ3NDIwMDAwMmM2ZDQwNmJiNSIsInR6byI6MjQwLCJjaCI6bnVsbCwiYW4iOm51bGwsImRlc3RVcmwiOiJodHRwczovL2FjY291bnRzLnNwb3RpZnkuY29tL2VuL2F1dGhvcml6ZS8/Y2xpZW50X2lkPTY2ZDNjZGI0NDgwNzRhMGQ4OGU5YjA4YmFhZjJmM2Q3JnJlc3BvbnNlX3R5cGU9Y29kZSZyZWRpcmVjdF91cmk9aHR0cHMlM0ElMkYlMkZhcGkuZmZtLnRvJTJGd2ViaG9vayUyRnNwb3RpZnklMkZhdXRob3JpemUmc2NvcGU9dXNlci1yZWFkLXByaXZhdGUlMjB1c2VyLXJlYWQtYmlydGhkYXRlJTIwdXNlci1yZWFkLWVtYWlsJTIwdXNlci1saWJyYXJ5LW1vZGlmeSUyMHVzZXItbGlicmFyeS1yZWFkJTIwdXNlci1yZWFkLXJlY2VudGx5LXBsYXllZCUyMHVzZXItZm9sbG93LXJlYWQlMjB1c2VyLWZvbGxvdy1tb2RpZnklMjB1c2VyLXRvcC1yZWFkJTIwcGxheWxpc3QtbW9kaWZ5LXB1YmxpYyUyMHBsYXlsaXN0LXJlYWQtcHJpdmF0ZSUyMHBsYXlsaXN0LW1vZGlmeS1wcml2YXRlJnN0YXRlPWV5SmtZa3hwYm10SlpDSTZJalZrT1RZelpqUTNOREl3TURBd01tTTJaRFF3Tm1KaU5TSXNJbUZqZEdsdmJsUjVjR1VpT201MWJHd3NJblZ6WlhKRGIzVnVkSEo1SWpvaVZWTWlMQ0p6YUc5eWRFbGtJam9pZEdobFlXTmhaR1Z0ZVNJc0luQnliMlIxWTNRaU9pSnpiV0Z5ZEd4cGJtc2lMQ0p5WldScGNtVmpkRlZ5YVNJNkltaDBkSEJ6T2k4dmNtbGphRzExYzJsakxtWm1iUzUwYnk5MGFHVmhZMkZrWlcxNUwzQnlaWE5oZG1WallXeHNZbUZqYXlJc0ltWmhiR3hpWVdOclZYSnNJam9pYUhSMGNITTZMeTkzZDNjdWVXOTFkSFZpWlM1amIyMHZkMkYwWTJnL2RqMHdRM1YzWjNwaVpXcGtZeUlzSW1selVISmxVbVZzWldGelpTSTZkSEoxWlN3aWFYTkdkWFIxY21WU1pXeGxZWE5sSWpwMGNuVmxMQ0poY25ScGMzUkpaQ0k2SWpWak9URTFOekExTUdVd01EQXdNR0poTXpsaU9XTXhNQ0lzSW1GamRHbHZia2xrSWpwdWRXeHNMQ0pwYzBaeWIyMUZWU0k2Wm1Gc2MyVXNJbXhwYm10VWVYQmxJam9pZEhKaFkyc2lmUT09IiwidmlkIjoiYWUwM2I3YzgtOTIxZS00MTE0LWFkNWEtMGIxNjY1NjNhMDdiIiwic3J2YyI6InNwb3RpZnkiLCJwcm9kdWN0Ijoic21hcnRsaW5rIiwic2hvcnRJZCI6InRoZWFjYWRlbXkiLCJpc0F1dGhvcml6YXRpb25SZXF1aXJlZCI6dHJ1ZX0=" class="inner-link" target="_blank">  <img style="max-height: 32px;" src="img\music-service_spotify.png" height="32px">
+                                    </a></li>
+                                    <li><a href="https://api.ffm.to/sl/e/ps/theacademy?cd=eyJ1YSI6eyJ1YSI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS83Ny4wLjM4NjUuOTAgU2FmYXJpLzUzNy4zNiIsImJyb3dzZXIiOnsibmFtZSI6IkNocm9tZSIsInZlcnNpb24iOiI3Ny4wLjM4NjUuOTAiLCJtYWpvciI6Ijc3In0sImVuZ2luZSI6eyJuYW1lIjoiV2ViS2l0IiwidmVyc2lvbiI6IjUzNy4zNiJ9LCJvcyI6eyJuYW1lIjoiV2luZG93cyIsInZlcnNpb24iOiIxMCJ9LCJkZXZpY2UiOnt9LCJjcHUiOnsiYXJjaGl0ZWN0dXJlIjoiYW1kNjQifX0sImNsaWVudCI6eyJyaWQiOiIwMzM4M2U5Ni00NWJmLTRjYzYtYWFjOC01NmUwYWQ5ZDYzNDMiLCJzaWQiOiI2MGJlN2ZiOC0xMzU4LTQyNDUtOTFkMy1hZjdkMWU0MmQ2Y2YiLCJpcCI6IjE0Mi4xOTAuNTguMTYiLCJyZWYiOiIiLCJob3N0IjoicmljaG11c2ljLmZmbS50byIsImxhbmciOiJlbi1VUyJ9LCJpc0Zyb21FVSI6ZmFsc2UsImNvdW50cnlDb2RlIjoiVVMiLCJpZCI6IjVkOTYzZjQ3NDIwMDAwMmM2ZDQwNmJiNSIsInR6byI6MjQwLCJjaCI6bnVsbCwiYW4iOm51bGwsImRlc3RVcmwiOiJodHRwczovL2FwaS5mZm0udG8vd2ViaG9vay9hcHBsZS9hdXRob3JpemU/c3RhdGU9ZXlKa1lreHBibXRKWkNJNklqVmtPVFl6WmpRM05ESXdNREF3TW1NMlpEUXdObUppTlNJc0ltRmpkR2x2YmxSNWNHVWlPbTUxYkd3c0luVnpaWEpEYjNWdWRISjVJam9pVlZNaUxDSnphRzl5ZEVsa0lqb2lkR2hsWVdOaFpHVnRlU0lzSW5CeWIyUjFZM1FpT2lKemJXRnlkR3hwYm1zaUxDSnlaV1JwY21WamRGVnlhU0k2SW1oMGRIQnpPaTh2Y21samFHMTFjMmxqTG1abWJTNTBieTkwYUdWaFkyRmtaVzE1TDNCeVpYTmhkbVZqWVd4c1ltRmpheUlzSW1aaGJHeGlZV05yVlhKc0lqb2lhSFIwY0hNNkx5OTNkM2N1ZVc5MWRIVmlaUzVqYjIwdmQyRjBZMmcvZGowd1EzVjNaM3BpWldwa1l5SXNJbWx6VUhKbFVtVnNaV0Z6WlNJNmRISjFaU3dpYVhOR2RYUjFjbVZTWld4bFlYTmxJanAwY25WbExDSmhjblJwYzNSSlpDSTZJalZqT1RFMU56QTFNR1V3TURBd01HSmhNemxpT1dNeE1DSXNJbUZqZEdsdmJrbGtJanB1ZFd4c0xDSnBjMFp5YjIxRlZTSTZabUZzYzJVc0lteHBibXRVZVhCbElqb2lkSEpoWTJzaWZRPT0iLCJ2aWQiOiJhZTAzYjdjOC05MjFlLTQxMTQtYWQ1YS0wYjE2NjU2M2EwN2IiLCJzcnZjIjoiYXBwbGUiLCJwcm9kdWN0Ijoic21hcnRsaW5rIiwic2hvcnRJZCI6InRoZWFjYWRlbXkiLCJpc0F1dGhvcml6YXRpb25SZXF1aXJlZCI6dHJ1ZX0=" class="inner-link" target="_blank"> <img style="max-height: 32px;" src="img\applemusic_blackbackground.png">
+                                    </a></li>
+                                    <!-- <li><a href="" class="inner-link" target="_blank"><img style="max-height: 32px;" src="img\deezer_white.png">
+                                    </a></li>
+                                    <li><a href="" ><img style="max-height: 32px;" src="img\tidal-white.png">
+                                    </a></li>
+                                    <li><a href="">  <img style="max-height: 32px;" src="img\music-service_googleplay.png">
+                                    </a></li> -->
+                                    <li><a href="https://api.ffm.to/sl/e/ps/theacademy?cd=eyJ1YSI6eyJ1YSI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS83Ny4wLjM4NjUuOTAgU2FmYXJpLzUzNy4zNiIsImJyb3dzZXIiOnsibmFtZSI6IkNocm9tZSIsInZlcnNpb24iOiI3Ny4wLjM4NjUuOTAiLCJtYWpvciI6Ijc3In0sImVuZ2luZSI6eyJuYW1lIjoiV2ViS2l0IiwidmVyc2lvbiI6IjUzNy4zNiJ9LCJvcyI6eyJuYW1lIjoiV2luZG93cyIsInZlcnNpb24iOiIxMCJ9LCJkZXZpY2UiOnt9LCJjcHUiOnsiYXJjaGl0ZWN0dXJlIjoiYW1kNjQifX0sImNsaWVudCI6eyJyaWQiOiIwMzM4M2U5Ni00NWJmLTRjYzYtYWFjOC01NmUwYWQ5ZDYzNDMiLCJzaWQiOiI2MGJlN2ZiOC0xMzU4LTQyNDUtOTFkMy1hZjdkMWU0MmQ2Y2YiLCJpcCI6IjE0Mi4xOTAuNTguMTYiLCJyZWYiOiIiLCJob3N0IjoicmljaG11c2ljLmZmbS50byIsImxhbmciOiJlbi1VUyJ9LCJpc0Zyb21FVSI6ZmFsc2UsImNvdW50cnlDb2RlIjoiVVMiLCJpZCI6IjVkOTYzZjQ3NDIwMDAwMmM2ZDQwNmJiNSIsInR6byI6MjQwLCJjaCI6bnVsbCwiYW4iOm51bGwsImRlc3RVcmwiOiJodHRwczovL211c2ljLmFwcGxlLmNvbS91cy9hbGJ1bS90aGUtYWNhZGVteS1mZWF0LWp1c3Rpbi1xdWlsZXMtbGVubnktdGF2JUMzJUExcmV6LWZlaWQvMTQ4MjIxMjU5ND9scz0xJmFwcD1pdHVuZXMmYXQ9MTAwMGxJWGQiLCJ2aWQiOiJhZTAzYjdjOC05MjFlLTQxMTQtYWQ1YS0wYjE2NjU2M2EwN2IiLCJzcnZjIjoiaXR1bmVzIiwicHJvZHVjdCI6InNtYXJ0bGluayIsInNob3J0SWQiOiJ0aGVhY2FkZW15IiwiaXNBdXRob3JpemF0aW9uUmVxdWlyZWQiOnRydWV9"><img style="max-height: 32px;" src="img\itunes_blackbackground_presave.png">
+                                    </a></li>
+                                    <!-- <li><a href=""><img style="max-height: 32px;" src="img\music-service_amazon.png">
+                                    </a></li> -->
+                                </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a name="giveaway"></a>
+      
+        <section class="cover fullscreen image-bg parallax">
+                <div class="stars"></div>
+                <div class="twinkling"></div>
+            <div class="container v-align-transform">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!-- <h5 class="text-center mt30 bold uppercase ftwhite">Escuchaste las canciones del Album?</h5> -->
+                        <!-- <script type="text/javascript" src="https://www.websitegoodies.com/poll.php?id=116867"></script> -->
+                        <div id="qp_all2534837" style="width:100%;max-width:100%; text-align: center;">
+                            <div id="qp_main2534837" fp='5bF24224-72' results=0 cmt=0
+                                style="margin: 0px auto;padding: 0px;box-sizing: border-box;text-align: center;border-color: rgb(0, 0, 0);color: rgb(0, 0, 0);font-size: 1.13rem">
+                                <div
+                                    style="border-radius: 6px;font-family: Arial;font-size: 1.56rem;font-weight: bold;color: rgb(255, 255, 255);margin-bottom: 10px;border-color: rgb(0, 0, 0)">
+                                    <div style="line-height: 30px;padding: 10px 15px">
+                                        ¿Cuál es tu canción favorita del álbum?</div>
+                                </div>
+                                <form id="qp_form2534837" action="https://www.poll-maker.com/results2534837x5bF24224-72" method="post" target="_blank"
+                                    style="display: inline;margin: 0px;padding: 0px">
+                                    <div style="border-radius: 6px;color: rgb(0, 0, 0)"><input type=hidden name="qp_d2534837"
+                                            value="43746.1259259234-43746.1259233493">
+                                        <div style="font-family: Arial;font-size: 16px;color: rgb(255, 255, 255);padding: 0.31rem 0rem;clear: both;line-height: 1.6em;border-color: rgb(0, 0, 0)"
+                                            class="qp_a"
+                                            onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}">
+                                            <span style="display: block;padding-left: 30px;cursor: inherit"><input
+                                                    style="float: none; margin-right: 15px;width: 20px;margin-left: -25px;margin-top: 2px;padding: 0px;height: 20px;-webkit-appearance:radio;"
+                                                    name="qp_v2534837" type="radio" value="1" />Quizas - [Artist Listing]</span></div>
+                                        <div style="font-family: Arial;font-size: 16px;color: rgb(255, 255, 255);padding: 0.31rem 0rem;clear: both;line-height: 1.6em;border-color: rgb(0, 0, 0)"
+                                            class="qp_a"
+                                            onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}">
+                                            <span style="display: block;padding-left: 30px;cursor: inherit"><input
+                                                    style="float: none; margin-right: 15px;width: 20px;margin-left: -25px;margin-top: 2px;padding: 0px;height: 20px;-webkit-appearance:radio;"
+                                                    name="qp_v2534837" type="radio" value="2" />Imaginate - [Artist Listing]</span></div>
+                                        <div style="font-family: Arial;font-size: 16px;color: rgb(255, 255, 255);padding: 0.31rem 0rem;clear: both;line-height: 1.6em;border-color: rgb(0, 0, 0)"
+                                            class="qp_a"
+                                            onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}">
+                                            <span style="display: block;padding-left: 30px;cursor: inherit"><input
+                                                    style="float: none; margin-right: 15px;width: 20px;margin-left: -25px;margin-top: 2px;padding: 0px;height: 20px;-webkit-appearance:radio;"
+                                                    name="qp_v2534837" type="radio" value="3" />Perreo en la Luna - [Artist Listing]</span>
+                                        </div>
+                                        <div style="font-family: Arial;font-size: 16px;color: rgb(255, 255, 255);padding: 0.31rem 0rem;clear: both;line-height: 1.6em;border-color: rgb(0, 0, 0)"
+                                            class="qp_a"
+                                            onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}">
+                                            <span style="display: block;padding-left: 30px;cursor: inherit"><input
+                                                    style="float: none; margin-right: 15px;width: 20px;margin-left: -25px;margin-top: 2px;padding: 0px;height: 20px;-webkit-appearance:radio;"
+                                                    name="qp_v2534837" type="radio" value="4" />Uniforme - [Artist Listing]</span></div>
+                                        <div style="font-family: Arial;font-size: 16px;color: rgb(255, 255, 255);padding: 0.31rem 0rem;clear: both;line-height: 1.6em;border-color: rgb(0, 0, 0)"
+                                            class="qp_a"
+                                            onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}">
+                                            <span style="display: block;padding-left: 30px;cursor: inherit"><input
+                                                    style="float: none; margin-right: 15px;width: 20px;margin-left: -25px;margin-top: 2px;padding: 0px;height: 20px;-webkit-appearance:radio;"
+                                                    name="qp_v2534837" type="radio" value="5" />Me Pregunta - [Artist Listing]</span></div>
+                                        <div style="font-family: Arial;font-size: 16px;color: rgb(255, 255, 255);padding: 0.31rem 0rem;clear: both;line-height: 1.6em;border-color: rgb(0, 0, 0)"
+                                            class="qp_a"
+                                            onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}">
+                                            <span style="display: block;padding-left: 30px;cursor: inherit"><input
+                                                    style="float: none; margin-right: 15px;width: 20px;margin-left: -25px;margin-top: 2px;padding: 0px;height: 20px;-webkit-appearance:radio;"
+                                                    name="qp_v2534837" type="radio" value="6" />Feel Me - [Artist Listing]</span></div>
+                                    </div>
+                                    <div style="clear: both;margin: 1em auto"><a style="text-decoration: none" class="qp_btna" href="#"><input
+                                                name="qp_b2534837" type="submit" btype="v" value="Vote"/></a><a style="text-decoration: none"
+                                            class="qp_btna"></a></div>
+                                </form>
+                                <div style="display:none">
+                                    <div id="qp_rp2534837"
+                                        style="font-size: 11px;width: 5ex;text-align: right;overflow: hidden;position: absolute;right: 5px;height: 1.5em;line-height: 1.5em">
+                                    </div>
+                                    <div id="qp_rv2534837"
+                                        style="font-size: 11px;width: 0%;line-height: 1.5em;text-align: right;color: rgb(255, 255, 255);box-sizing: border-box;padding-right: 3px">
+                                    </div>
+                                    <div id="qp_rb2534837" style="color: rgb(255, 255, 255);display: block;font-size: 12px"></div>
+                                    <div id="qp_rva2534837" style="background: rgb(0, 111, 185);border-color: rgb(0, 111, 185)"></div>
+                                    <div id="qp_rvb2534837" style="background: rgb(22, 52, 99);border-color: rgb(22, 52, 99)"></div>
+                                    <div id="qp_rvc2534837" style="background: rgb(91, 207, 252);border-color: rgb(20, 129, 171)"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <script src="//scripts.poll-maker.com/3012/scpolls.js" language="javascript"></script>
+                    </div> 
+                </div>
+
+
+                <!-- <div class="row">
+                        <div class="col-sm-12 text-center">
+                                <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/4f3x/jcl" width="100%"></iframe>
+    
+                                <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+                            
+                        </div>
+                    </div> -->
+                
+            </div>
+        </section>   
+
+		<section class="cover fullscreen image-slider slider-arrow-controls controls-inside parallax">
+                <div class="stars"></div>
+                <div class="twinkling"></div>
+                    <div class="container-fluid">
+                        <div class="row navigator">
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-4 text-center nopd z1">
+                                    <h5 class="text-center mt30 bold uppercase ftwhite">Subscribe to our newsletter!</h5>
+                            
+                                    <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/4f3x/jcl" width="100%"></iframe>
+
+                                    <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+                                <!-- <img class="abs grow" id="windows" src="img/windows.png" onclick="openNav()">
+                                <img src="img/1920 home2.png"> -->
+                                <!-- <iframe src="https://richmusic.ffm.to/theacademy" width="350" height="750" frameBorder="0"> </iframe> -->
+                                <!-- <iframe width="300" height="250" frameborder="0" src="https://richmusic.ffm.to/theacademy/widget?width=300&height=250&note="></iframe> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-4"></div>
+                        
+                    </div>   
+      </section>
+
+        
+        <!-- <section class="fullscreen cover parallax image-bg">
+                <div class="stars"></div>
+                <div class="twinkling"></div>
+            <div class="background-image-holder">
+                <img alt="image" class="background-image" src="img/home-2-1.jpg">
+            </div>
+            <div class="container v-align-transform">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                            <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/4f3x/jcl" width="100%"></iframe>
+
+                            <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section> -->
+<!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn z999" onclick="closeNav()">&times;</a>
+        
+            <!-- Overlay content -->
+            <div class="overlay-content z999">
+                <a class="rooms" href="simon.html">Simon's Room</a>
+                <a class="rooms" href="superhero.html">The Avengers Room</a>
+            </div>
+      
+        </div>
+        <footer class="footer-2 bg-dark text-center-xs">
+                <div class="stars"></div>
+                <div class="twinkling"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 z1">
+                            <a href="https://richmusicltd.com" class="inner-link" target="_self"><img class="image-xs fade-half" alt="RichMusic_Logo" src="img/RichMusic_Nav1.png"></a>
+                        </div>
+                    
+                        <div class="col-sm-4 text-center z1">
+                            <span class="fade-half">
+                                © Copyright 2019 Rich Music LTD. - All Rights Reserved
+                            </span>
+                        </div>
+                    
+                        <div class="col-sm-4 text-right text-center-xs z1">
+                            <ul class="list-inline social-list">
+                                <li><a href="https://twitter.com/richmusicltd" class="inner-link" target="_blank"><i class="ti-twitter-alt"></i></a></li>
+                                <li><a href="https://www.facebook.com/RichMusicLtd/" class="inner-link" target="_blank"><i class="ti-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/richmusicltd/" class="inner-link" target="_blank"><i class="ti ti-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UC0gcYNIz-mW1Mf2zlZWRRdQ" class="inner-link" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+
+    </div>
+    <script src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/flexslider.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
+				

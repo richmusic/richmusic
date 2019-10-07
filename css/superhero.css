@@ -1,0 +1,42 @@
+h3 {
+    color: white;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 20px;
+    color: #ffe153;
+    text-transform: uppercase;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    line-height: 32px;
+  }
+  
+  .sp {
+    background-color: #172e3c;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #068493;
+  }
+  
+  .sp:hover {
+    background-color: #ffe153;
+  }
+  .mbr{
+      margin-right: 10px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+  }
+  .p50 {
+      padding: 0px;
+  }
+  .pt {
+      padding-top: 25%;
+  }
