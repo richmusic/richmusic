@@ -277,6 +277,9 @@ header a, a:visited {
     -o-transition: opacity .5s ease-out;
     background-color: #008CBA;
 }
+.relative{
+    position: relative;
+}
 .fader{
     position:relative;
     height:250px;
@@ -294,7 +297,9 @@ header a, a:visited {
 .fader img.top:hover {
     opacity:0;
   }
-
+.mw-unset {
+    max-width: unset;
+}
 @keyframes floatingButton {
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 15px); }
