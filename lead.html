@@ -66,19 +66,21 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-4"></div>
-                    <div class="col-sm-4 z2">
+                    <div class="col-sm-4 z2" id="formArea">
                             
+                            <iframe style="display: none;" class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/4f3x/jcl" width="100%"></iframe>
 
-                            <form class="form-email" id="formArea">
-                                    <input type="hidden" id="csrf_token" name="csrf_token" value="YzM3NmI4MjhiYmVhZmE5YmIyN2YzZDVmYTdkNzZlMTc0ZjIxM2FhZDk0YjFlM2I3ZmU3MmFkNTI0ZmMwYzliMg==">
-                                    <input type="text" id="formname" class="validate-required" placeholder="Nombre" name="w-field-field-73801-413424-1011191-6917" required>
+                        
+                            <form class="form-email">
+                                    <!-- <input type="hidden" id="csrf_token" name="csrf_token" value="YzM3NmI4MjhiYmVhZmE5YmIyN2YzZDVmYTdkNzZlMTc0ZjIxM2FhZDk0YjFlM2I3ZmU3MmFkNTI0ZmMwYzliMg==">
+                                    <input type="text" id="formname" class="validate-required" placeholder="Nombre" name="w-field-field-73801-413424-1011191-6917" required> -->
                                     <input type="email" id="formemail" class="validate-required" placeholder="Correo Electrónico" name="w-field-field-73801-413424-1011191-email" required>
-                                    <input type="tel" id="formphone" class="validate-required" placeholder="Teléfono" name="w-field-field-73801-413424-1011191-11499" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                                    <!-- <input type="tel" id="formphone" class="validate-required" placeholder="Teléfono" name="w-field-field-73801-413424-1011191-11499" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                                     <input type="text" id="formcity" class="validate-required" placeholder="País y Ciudad" name="w-field-field-73801-413424-1011191-11501" required>
                                     <div class="wt-center">
                                             <input type="checkbox" id="w-preview-consent-checkbox" class="checkbox-mini" name="w-preview-consent-checkbox" required><label>Entiendo las condiciones de inscribirme y opto por recibir correos electrónicos con actualizaciones sobre THE ACADEMY</label>
-                                    </div>
-                                    <button style="width: 100%;" type="submit" onclick="sendEmail()" id="completeForm">Aplicar</button>
+                                    </div> -->
+                                    <button style="width: 100%;" type="button" onclick="sendEmail()" id="completeForm">Next</button>
                             </form>
                     </div>
                     <div class="col-sm-4"></div>
@@ -129,7 +131,6 @@
         </footer>
 
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mailcheck/1.1.2/mailcheck.js"></script>
     <script src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
 	<script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
