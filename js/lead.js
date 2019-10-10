@@ -10,6 +10,9 @@ function sendEmail() {
 
     $.ajax({
         type: 'post',
+        beforeSend: function(request) {
+            request.setRequestHeader("Access-Control-Allow-Origin", true);
+        },
         url: 'https://app.mailjet.com/widget/iframe/4f3x/jcl',
         data: {
             "csrf_token": token,
