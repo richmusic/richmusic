@@ -6,7 +6,7 @@ function sendEmail() {
     var email= document.getElementById("formemail").value;
     var number= document.getElementById("formphone").value;
     var city= document.getElementById("formcity").value;
-    var sub= document.getElementById("w-preview-consent-checkbox").value;
+    var sub= document.getElementById("w-preview-consent-checkbox").checked;
     var form = document.getElementsByClassName("form-email");
     
     $.ajax({
