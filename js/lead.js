@@ -1,4 +1,10 @@
-
+$('.mj-w-res-iframe').load(function(){
+    //then set up some access points
+    var contents = $(this).contents(); // contents of the iframe
+    $(contents).find(".mj-subscribe-button").on('click', function(event) { 
+        alert('test'); 
+    });
+});
 function sendEmail() {
     var token= document.getElementById("csrf_token").value;
     var name= document.getElementById("formname").value;
